@@ -1,0 +1,307 @@
+.Voucher {
+    width: 100%;
+
+}
+
+.VoucherContainer {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+
+    gap: 5rem;
+}
+
+
+
+.rightvoucher {
+    width: 50%;
+    max-width: 50%;
+
+
+
+
+    position: relative;
+
+
+}
+
+.bgtxt {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.leftvoucher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+
+    width: 50%;
+
+    margin-top: 10rem;
+
+
+}
+
+.mobileapp {
+
+    height: 45vw;
+    width: 49vw;
+}
+
+.mobileapp img {
+    max-width: 94%;
+
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+.descpvoucher {
+
+    margin: 0;
+    font-size: smaller;
+    color: #7F7F7F;
+
+    padding-right: 5.4rem;
+
+    margin-bottom: 1rem;
+}
+
+
+.imagecontainer {
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.appstore {
+    width: 20vh;
+    height: 20vw;
+    padding: 0px 10px;
+}
+
+
+
+.appstore img {
+    max-width: 94%;
+
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+.ellipse {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    animation: pulsate 2s infinite;
+}
+
+.ellipse img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ellipse1 {
+    top: 14%;
+    left: -9%;
+}
+
+.ellipse2 {
+    top: 14%;
+    right: 41%;
+}
+
+.ellipse3 {
+    bottom: 16%;
+    left: -9%;
+}
+
+.ellipse4 {
+    bottom: 16%;
+    right: 41%;
+}
+
+
+
+.circular {
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+    z-index: -1;
+    /* Ensure circles are behind the mobile app */
+}
+
+.circular1 {
+    top: 26%;
+
+    left: 2%;
+    transform: translate(-50%, -50%);
+    width: 287px;
+
+}
+
+.circular2 {
+    top: 20%;
+
+    left: -5%;
+
+    transform: translate(-50%, -50%);
+    width: 350px;
+
+    z-index: -2;
+}
+
+.circular3 {
+    top: 15%;
+
+
+    left: -10%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: -3;
+
+}
+
+.circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .VoucherContainer {
+        gap: 2rem;
+    }
+
+    .leftvoucher,
+    .rightvoucher {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .mobileapp {
+        width: 40vw;
+        height: 49vw;
+    }
+
+    .ellipse1 {
+        top: 10%;
+        left: -5%;
+    }
+
+    .ellipse2 {
+        top: 10%;
+        right: 10%;
+    }
+
+    .ellipse3 {
+        bottom: 10%;
+        left: -5%;
+    }
+
+    .ellipse4 {
+        bottom: 10%;
+        right: 10%;
+    }
+
+
+    .circular2 {
+        width: 75%;
+
+    }
+
+    .circular3 {
+        width: 80%;
+    }
+
+    .circular1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .VoucherContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftvoucher {
+        margin-top: 2rem;
+    }
+
+    .mobileapp {
+        height: auto;
+        width: 100%;
+    }
+
+    .ellipse1,
+    .ellipse2,
+    .ellipse3,
+    .ellipse4 {
+        display: none;
+        /* Hide ellipses on small screens */
+    }
+
+    .circular1,
+    .circular2,
+    .circular3 {
+        width: 150px;
+        height: 150px;
+        top: auto;
+        left: auto;
+        bottom: -50px;
+        right: -50px;
+    }
+
+    .circular1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circular2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circular3 {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+.Community {
+    width: 100%;
+    margin-top: 2%;
+    background-color: #E5C643;
+}
+
+.communityContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0px auto;
+
+    margin-bottom: -2%;
+
+
+
+    height: 400px;
+
+}
+
+/* .content {
+
+    margin-top: auto;
+    margin-bottom: ;
+} */
+
+.bgtr {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: none;
+    font-weight: 900;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.smalltxt {
+
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 400;
+}
+
+.inputttt {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    /* Adjust as needed */
+    margin: 20px auto;
+    /* Center the input box */
+
+}
+
+.inputttt input {
+    width: 80%;
+    padding: 14px 60px 17px 13px;
+    /* Adjust padding for right side to accommodate the button */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+.sendbtn {
+
+    padding: 8px 27px;
+    height: 39px;
+}
+
+
+
+.inputttt button {
+    position: absolute;
+    right: 21%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: none;
+
+    font-size: 16px;
+
+
+}
+
+@media (max-width: 768px) {
+    .bgtr {
+        font-size: 2rem;
+    }
+
+    .smalltxt {
+        font-size: 1.2rem;
+    }
+
+    .inputttt {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .inputttt input {
+        padding: 10px 50px 10px 10px;
+        font-size: 14px;
+    }
+
+    .inputttt button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bgtr {
+        font-size: 1.5rem;
+    }
+
+    .smalltxt {
+        font-size: 1rem;
+    }
+
+    .inputttt input {
+        padding: 10px 45px 10px 10px;
+        font-size: 12px;
+    }
+
+    .inputttt button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

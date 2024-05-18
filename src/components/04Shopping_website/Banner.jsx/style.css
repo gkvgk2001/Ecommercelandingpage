@@ -1,0 +1,60 @@
+.bannermain {
+
+    width: 100%;
+    overflow: hiidden;
+
+
+}
+
+.bannercon {
+    background-color: #EBD96B;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    align-items: center;
+    height: 100px;
+
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+
+
+.brandsimg {
+    min-width: 200px;
+
+    margin: 0 5rem;
+
+}
+
+
+.brandsimg img {
+    background-color: #EBD96B;
+
+    mix-blend-mode: multiply;
+
+    background-color: transparent;
+
+
+}
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    95% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slide {
+    display: flex;
+    animation: 40s linear 2s infinite alternate slide
+}

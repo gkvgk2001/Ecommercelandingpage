@@ -1,0 +1,125 @@
+.cardscontainer {
+    margin-top: 20px;
+
+
+}
+
+.cardscomp {
+    display: flex;
+    flex-direction: column;
+
+
+    position: relative;
+}
+
+.cardsimg {
+
+
+    height: 400px;
+    cursor: pointer;
+    border-radius: 1rem;
+
+    margin-bottom: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cardsimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.carddesc {
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+    text-transform: capitalize;
+    /* line-height: 90%; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cardexplore {
+
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.cardexplore h4 {
+
+    margin: 0;
+    font-size: smaller;
+    color: #7F7F7F;
+
+    padding-right: 70px;
+}
+
+
+.arrowimg {
+    width: 30px;
+    height: 20px;
+
+
+}
+
+.arrowimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (max-width: 1200px) {
+    .cardsimg {
+        width: 350px !important;
+        height: 300px;
+        /* Adjust width for medium screens */
+    }
+
+    .cardsimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 20px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .cardsimg {
+        width: 300px !important;
+        height: 300px;
+        /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .cardsimg {
+        width: 100%;
+        /* Adjust width for very small screens */
+        height: auto;
+        /* Adjust height to maintain aspect ratio */
+    }
+
+    .carddesc {
+        font-size: 1rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    .cardexplore h4 {
+        font-size: smaller;
+        /* Adjust font size */
+        padding-right: 20px;
+        /* Adjust padding */
+    }
+}
