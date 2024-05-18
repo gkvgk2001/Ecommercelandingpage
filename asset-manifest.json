@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gkvgk2001/Ecommercelandingpage/static/css/main.422c2e94.css",
-    "main.js": "/gkvgk2001/Ecommercelandingpage/static/js/main.4b3719d9.js",
+    "main.js": "/gkvgk2001/Ecommercelandingpage/static/js/main.32703366.js",
     "static/js/453.782833e4.chunk.js": "/gkvgk2001/Ecommercelandingpage/static/js/453.782833e4.chunk.js",
     "static/media/Card-22.png": "/gkvgk2001/Ecommercelandingpage/static/media/Card-22.406a793349f3d9f3d05d.png",
     "static/media/rightimg.png": "/gkvgk2001/Ecommercelandingpage/static/media/rightimg.848370de32fe15cd450b.png",
@@ -20,11 +20,11 @@
     "static/media/brand4.png": "/gkvgk2001/Ecommercelandingpage/static/media/brand4.b123e6f3dabd36470775.png",
     "index.html": "/gkvgk2001/Ecommercelandingpage/index.html",
     "main.422c2e94.css.map": "/gkvgk2001/Ecommercelandingpage/static/css/main.422c2e94.css.map",
-    "main.4b3719d9.js.map": "/gkvgk2001/Ecommercelandingpage/static/js/main.4b3719d9.js.map",
+    "main.32703366.js.map": "/gkvgk2001/Ecommercelandingpage/static/js/main.32703366.js.map",
     "453.782833e4.chunk.js.map": "/gkvgk2001/Ecommercelandingpage/static/js/453.782833e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.422c2e94.css",
-    "static/js/main.4b3719d9.js"
+    "static/js/main.32703366.js"
   ]
 }
